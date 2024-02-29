@@ -6,10 +6,13 @@ export const Header = async () => {
   return (
     <header>
       <nav className="bg-bg-300 dark:bg-bg-300-dark text-text-100 dark:text-text-100-dark flex justify-around">
+        <h1 className="text-3xl font-bold p-8 text-[#420C00] hover:text-[#FF2E00]">
+          D3.js
+        </h1>
         <ul className={ul_style}>
-          <li>
-            <Link href="/">Home</Link>
-          </li>
+          {/* <li>
+            <Link href="/">About</Link>
+          </li> */}
           <li>
             <Link href="/world-map">World Map</Link>
           </li>
@@ -17,8 +20,11 @@ export const Header = async () => {
             <Link href="/country-chart">Country Chart</Link>
           </li>
           <li>
-            <Link href="/page">Template Page</Link>
+            <Link href="/word-cloud">Word Cloud</Link>
           </li>
+          {/* <li>
+            <Link href="/page">Page</Link>
+          </li> */}
         </ul>
       </nav>
     </header>

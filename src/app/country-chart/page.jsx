@@ -8,7 +8,9 @@ export default function mapsPage() {
     <>
       <main className="px-4">
         <div className="">
-          <h3 className="mt-4 text-left text-3xl font-semibold">D3.js...</h3>
+          <h3 className="mt-4 text-left text-3xl font-semibold">
+            Country Chart
+          </h3>
           <div className="mx-auto rounded-lg border p-2">
             <h2>
               Countries by Area

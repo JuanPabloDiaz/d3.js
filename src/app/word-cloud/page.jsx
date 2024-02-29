@@ -24,14 +24,10 @@ export default function TemplatePage() {
     <>
       <section className="px-4">
         <div className="">
-          <h3 className="mt-4 text-left text-3xl font-semibold">...</h3>
+          <h3 className="mt-4 text-left text-3xl font-semibold">Word Cloud</h3>
           <section className="flex gap-4 pt-10">
             <div className="mx-auto rounded-lg border p-2">
-              <h2>LinePlot</h2>
-              <LinePlot_D3 />
-            </div>
-            <div className="mx-auto rounded-lg border p-2">
-              <h2>Word Cloud</h2>
+              {/* <h2></h2> */}
               <WordCloud_D3 text={text} options={options} />
             </div>
           </section>
