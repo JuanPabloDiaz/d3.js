@@ -11,6 +11,12 @@ export const Header = async () => {
             <Link href="/">Home</Link>
           </li>
           <li>
+            <Link href="/world-map">World Map</Link>
+          </li>
+          <li>
+            <Link href="/country-chart">Country Chart</Link>
+          </li>
+          <li>
             <Link href="/page">Template Page</Link>
           </li>
         </ul>
