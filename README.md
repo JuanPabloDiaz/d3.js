@@ -1,5 +1,7 @@
 # D3.js
 
+Building my own D3.js playground
+
 ## About
 
 This is a simple Next.js app that uses D3.js to render multiple components.

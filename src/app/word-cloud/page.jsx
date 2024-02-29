@@ -1,9 +1,8 @@
 "use client";
 
-import { LinePlot_D3 } from "@/components/shared/D3/LinePlot";
 import { WordCloud_D3 } from "@/components/shared/D3/WordCloud";
 
-export default function TemplatePage() {
+export default function WordCloud() {
   // For the WordCloud component:
   const text =
     "Hello world! This is a test of the WordCloud_D3 component. It is a test of the WordCloud_D3 component.";

@@ -3,9 +3,8 @@ import "./globals.css";
 import { Header } from "../components/Header";
 
 export const metadata: Metadata = {
-  title: "Template App",
-  description:
-    "Follow tailwindcss installation guide to get started. Install the dependencies and run the development server.",
+  title: "D3.js",
+  description: "My own D3.js playground",
 };
 
 export default function RootLayout({
