@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "../components/Header";
+import { Footer } from "@/components/shared/D3/Footer";
 
 export const metadata: Metadata = {
   title: "D3.js",
@@ -14,9 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="flex flex-col min-h-screen">
         <Header />
-        <div className="container mt-10">{children}</div>
+        <div className="container mx-auto flex-grow px-2">{children}</div>
+        <Footer />
       </body>
     </html>
   );
