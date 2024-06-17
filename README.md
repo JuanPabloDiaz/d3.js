@@ -15,3 +15,7 @@ That being said, I will be developing and testing new component ideas and featur
 Currently, I am working on multiple components. The components will include a world map, a country chart, a word cloud and much more.
 
 To learn more about D3.js, please visit the [D3.js](https://d3js.org/) website.
+
+## How to Contribute?
+
+All contributions are welcome. Please read the [CONTRIBUTING guidelines](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
