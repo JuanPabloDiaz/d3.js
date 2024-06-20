@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/tailwindcss": "^0.2.0",
+    "@headlessui/tailwindcss": "^0.2.1",
     "@tailwindcss/forms": "^0.5.7",
     "d3": "^7.9.0",
     "d3-cloud": "^1.2.7",
