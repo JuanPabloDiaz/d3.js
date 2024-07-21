@@ -9,14 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@headlessui/tailwindcss": "^0.2.0",
+    "@headlessui/tailwindcss": "^0.2.1",
     "@tailwindcss/forms": "^0.5.7",
-    "d3": "^7.8.5",
+    "d3": "^7.9.0",
     "d3-cloud": "^1.2.7",
-    "next": "14.1.0",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-icons": "^5.0.1",
+    "next": "14.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
     "tailwindcss-animate": "^1.0.7",
     "topojson": "^3.0.2"
   },
